@@ -14,7 +14,9 @@ function AllRecipe(params) {
       <div class="mid-section">
         <section class="lhs">
           <h1 class="lhs_obj all_recipe_txt">All recipes</h1>
-          <button class="lhs_obj create-recipe-btn">Create recipes</button>
+          <button class="lhs_obj all-recipe-create-recipe-btn">
+            Create recipes
+          </button>
           <div class="line-1"></div>
           <div class="scrollable-bg">
             <div class="recipe-container">
