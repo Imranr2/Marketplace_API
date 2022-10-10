@@ -1,21 +1,9 @@
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 function ChefPage(params) {
   return (
     <div>
-      <nav>
-        <div className="top_bar">
-          <img
-            className="company_logo"
-            src="image/logo.svg"
-            alt="company_logo"
-          />
-
-          <Link to="/">
-            <img className="home_logo" src="image/Vector.svg" alt="home_logo" />
-          </Link>
-        </div>
-      </nav>
-
+      <NavBar />
       <section>
         <h1 id="welcome_sentence">Welcome back,</h1>
         <div className="line-1"></div>

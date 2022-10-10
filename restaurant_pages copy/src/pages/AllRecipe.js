@@ -1,17 +1,9 @@
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 function AllRecipe(params) {
   return (
     <div>
-      <nav>
-        <div class="top_bar">
-          <a href="#" class="company_logo_container">
-            <img class="company_logo" src="image/logo.svg" alt="company_logo" />
-          </a>
-          <Link to="/">
-            <img class="home_logo" src="image/Vector.svg" alt="home_logo" />
-          </Link>
-        </div>
-      </nav>
+      <NavBar />
 
       <div class="mid-section">
         <section class="lhs">
