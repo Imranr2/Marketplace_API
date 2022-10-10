@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
 function ChefPage(params) {
   return (
     <div>
       <nav>
         <div className="top_bar">
-          <a href="#" className="company_logo_container">
-            <img
-              className="company_logo"
-              src="image/logo.svg"
-              alt="company_logo"
-            />
-          </a>
+          <img
+            className="company_logo"
+            src="image/logo.svg"
+            alt="company_logo"
+          />
 
-          <img className="home_logo" src="image/Vector.svg" alt="home_logo" />
+          <Link to="/">
+            <img className="home_logo" src="image/Vector.svg" alt="home_logo" />
+          </Link>
         </div>
       </nav>
 
@@ -30,7 +31,9 @@ function ChefPage(params) {
             alt="Recipe_logo"
           />
 
-          <button className="view-recipe-btn">View Recipes</button>
+          <Link to="/AllRecipe">
+            <button className="view-recipe-btn">View Recipes</button>
+          </Link>
 
           <button className="create-recipe-btn">Create Recipe</button>
         </div>

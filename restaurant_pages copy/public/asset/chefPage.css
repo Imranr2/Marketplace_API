@@ -99,6 +99,11 @@ header {
   margin: 10px auto;
   cursor: pointer;
   padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+
+.view-recipe-btn:hover {
+  opacity: 0.8;
 }
 .create-recipe-btn {
   background-color: #eb7c68;
@@ -111,6 +116,10 @@ header {
   margin: 10px auto;
   cursor: pointer;
   padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+.create-recipe-btn:hover {
+  opacity: 0.8;
 }
 
 /* order form  */
@@ -140,4 +149,8 @@ header {
   cursor: pointer;
 
   padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+.view-orders-btn:hover {
+  opacity: 0.8;
 }

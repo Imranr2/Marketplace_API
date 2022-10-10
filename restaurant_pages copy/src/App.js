@@ -8,10 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
-          <Route path="ChefPage" element={<ChefPage />} />
-          <Route path="AllRecipe" element={<AllRecipe />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/ChefPage" element={<ChefPage />} />
+        <Route path="/AllRecipe" element={<AllRecipe />} />
       </Routes>
     </BrowserRouter>
   );
