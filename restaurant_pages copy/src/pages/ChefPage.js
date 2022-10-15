@@ -1,15 +1,12 @@
 import { Link } from "react-router-dom";
+import MyHeader from "./MyHeader";
 import NavBar from "./NavBar";
+
 function ChefPage(params) {
   return (
     <div>
       <NavBar />
-      <section>
-        <h1 id="welcome_sentence">Welcome back,</h1>
-        <div className="line-1"></div>
-        <h2 id="asking_action">What would you like to do today?</h2>
-      </section>
-
+      <MyHeader headerText={"Welcome Back"} />
       <section className="mid_section">
         <div className="menu_panel">
           <h2 id="recipe_header">Recipes</h2>

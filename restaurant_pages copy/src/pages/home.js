@@ -9,10 +9,13 @@ function Home(params) {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/chefPage">Chef page</Link>
+            <Link to="/ChefPage">Chef page</Link>
           </li>
           <li>
-            <Link to="/allRecipe">All recipe</Link>
+            <Link to="/AllRecipe">All recipe</Link>
+          </li>
+          <li>
+            <Link to="/CreateRecipe">Create recipe</Link>
           </li>
         </ul>
       </nav>

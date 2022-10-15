@@ -6,7 +6,8 @@ nav {
 
 .top_bar {
   background-color: #1f1d2c;
-  display: block;
+  display: flex;
+  flex-direction: row;
   padding: 15px 20px;
 
   top: 0%;
@@ -16,8 +17,15 @@ nav {
 }
 
 .company_logo_container {
+  flex: 1;
+}
+.topbar-flex-right {
+  flex: 1;
 }
 
+.homelogo-link-container {
+  margin-top: 15px;
+}
 .company_logo {
   width: 50px;
   height: 50px;
@@ -27,4 +35,5 @@ nav {
 }
 .toHome {
   margin-left: 95%;
+  vertical-align: middle;
 }

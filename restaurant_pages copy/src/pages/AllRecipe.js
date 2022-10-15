@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 function AllRecipe(params) {
   return (
@@ -11,7 +10,7 @@ function AllRecipe(params) {
           <button class="lhs_obj all-recipe-create-recipe-btn">
             Create recipes
           </button>
-          <div class="line-1"></div>
+
           <div class="scrollable-bg">
             <div class="recipe-container">
               <div class="card">

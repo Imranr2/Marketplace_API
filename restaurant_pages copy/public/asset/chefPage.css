@@ -11,14 +11,7 @@ body {
 /* ================================================ */
 
 /* Horizontal line, welcome text, what would you like to do  */
-#welcome_sentence {
-  color: #dedfe4;
-}
-.line-1 {
-  height: 1px;
-  background-color: #3d3c3a;
-  margin: auto;
-}
+
 #asking_action {
   margin: 2rem auto;
   text-align: center;
