@@ -6,7 +6,10 @@ function ChefPage(params) {
   return (
     <div>
       <NavBar />
-      <MyHeader headerText={"Welcome Back"} />
+      <MyHeader headerText={"Welcome Back, Chef"} />
+      <h2 className="what-would-you-like-to-do">
+        What would you like to do today?
+      </h2>
       <section className="mid_section">
         <div className="menu_panel">
           <h2 id="recipe_header">Recipes</h2>

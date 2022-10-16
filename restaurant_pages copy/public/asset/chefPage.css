@@ -12,8 +12,7 @@ body {
 
 /* Horizontal line, welcome text, what would you like to do  */
 
-#asking_action {
-  margin: 2rem auto;
+.what-would-you-like-to-do {
   text-align: center;
   color: #dedfe4;
 }
