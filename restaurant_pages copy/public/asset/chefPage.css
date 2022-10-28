@@ -1,0 +1,115 @@
+body {
+  background-color: #262837;
+  /* background-color: aliceblue; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+/* from here, style belongs to navigation bar */
+/* ============================================= */
+
+/* ================================================ */
+
+/* Horizontal line, welcome text, what would you like to do  */
+
+.what-would-you-like-to-do {
+  text-align: center;
+  color: #dedfe4;
+}
+/* =================================================== */
+
+/* recipe form  */
+.mid_section {
+  display: flex;
+  justify-content: center;
+}
+.menu_panel {
+  flex: 0 0 50;
+  /* width: 508px; */
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
+
+  background-color: #1f1d2c;
+  border-radius: 32px;
+  margin-right: 40px;
+}
+#recipe_header {
+  color: #dedfe4;
+  text-align: center;
+}
+.recipe_logo {
+  width: 150px;
+  height: 200px;
+  top: 15px;
+  left: 64px;
+}
+.view-recipe-btn {
+  background-color: #eb7c68;
+  color: #dedfe4;
+  border: none;
+  border-radius: 8px;
+  width: 208px;
+  height: 48px;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+  padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+
+.view-recipe-btn:hover {
+  opacity: 0.8;
+}
+.create-recipe-btn {
+  background-color: #eb7c68;
+  color: #dedfe4;
+  border: none;
+  border-radius: 8px;
+  width: 208px;
+  height: 48px;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+  padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+.create-recipe-btn:hover {
+  opacity: 0.8;
+}
+
+/* order form  */
+.order_panel {
+  flex: 0 0 50;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #1f1d2c;
+  border-radius: 32px;
+  padding: auto;
+  margin-left: 40px;
+}
+
+.view-orders-btn {
+  background-color: #eb7c68;
+  color: #dedfe4;
+  border: none;
+  border-radius: 8px;
+  width: 208px;
+  height: 48px;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+
+  padding: 10px, 40px, 10px, 40px;
+  transition: opacity 0.15s;
+}
+.view-orders-btn:hover {
+  opacity: 0.8;
+}

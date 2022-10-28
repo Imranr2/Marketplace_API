@@ -1,0 +1,126 @@
+body {
+  background-color: #262837;
+}
+
+/* from here, style belongs to navigation bar */
+/* ============================================= */
+
+/* Element before horizontal line */
+.mid-section {
+  display: flex;
+  height: auto;
+  /* height: calc(100vh - 100px); */
+}
+.lhs {
+  /* flex: 80%; */
+  flex: 0 0 70%;
+  margin-left: 37px;
+}
+.lhs_obj {
+  display: inline-block;
+  /* flex-grow: 7; */
+}
+.all_recipe_txt {
+  margin-left: 56px;
+  color: #dedfe4;
+}
+.all-recipe-create-recipe-btn {
+  margin-left: 70%;
+  height: 44px;
+  width: 144px;
+  border-radius: 8px;
+  background-color: transparent;
+  border-color: #eb7c68;
+  color: #eb7c68;
+}
+.line-1 {
+  height: 1px;
+  background-color: #3d3c3a;
+  margin: auto;
+}
+/* scrollable panel*/
+.scrollable-bg {
+  background-color: #1f1d2c;
+  margin-top: 5%;
+  width: auto;
+  height: 752px;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.recipe-container {
+  display: flex;
+  padding-left: 79px;
+  padding-right: 79px;
+  padding-top: 43px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.scrollable-bg::-webkit-scrollbar {
+  width: 14px;
+}
+.scrollable-bg::-webkit-scrollbar-thumb {
+  background-color: #555977;
+  border-radius: 6px;
+}
+.scrollable-bg::-webkit-scrollbar-track {
+  background: rgba(217, 217, 217, 0.09);
+  border-radius: 6px;
+  margin-block: 0.5px;
+}
+/* card design */
+
+.card {
+  width: 250px;
+  height: 322px;
+  /* background-color: white; */
+  background-color: #262837;
+  margin: 60px;
+
+  border-radius: 20px;
+}
+
+.card a {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+.card div {
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  margin: auto;
+}
+.card img {
+  margin: auto;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+/* side bar design */
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  margin-left: 37px;
+  background-color: #1f1d2c;
+  bottom: 0%;
+}
+
+.side-bar-content {
+  margin: auto;
+  text-align: center;
+}
